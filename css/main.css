@@ -364,6 +364,10 @@ footer a:hover {
 }
 
 .social ul li {
+    display: inline-block;
+}
+
+.social ul li a {
     display: block;
     width: 23px;
     height: 23px;
@@ -420,9 +424,12 @@ footer a:hover {
     padding: 40px 0;
     color: #e5e5e5;
     font-size: 16px;
-    max-width: 230px;
+    
 }
 
+.ps img {
+    max-width: 230px;
+}
 .demo {
     padding: 0 30px;
 
