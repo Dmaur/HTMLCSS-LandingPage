@@ -167,7 +167,7 @@ section {
 
 .hero h1 {
     position: relative;
-    text-align: left -30px;
+    left: -30px;
 
 }
 
