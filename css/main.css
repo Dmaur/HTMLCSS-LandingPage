@@ -9,7 +9,7 @@ h1, h2, h3, h4, h5, h6 { margin: 0; }
 /***************************************/
 
 .container {
-    margin: 0 auto 0 auto;
+    margin: 0 auto;
     max-width: 1170px;
 }
 
@@ -42,35 +42,35 @@ section {
 }
 
 .btn{
-  border: none;
+  border: 0;
   cursor: pointer;
-  padding: 6px 12px 6px 12px;
+  padding: 6px 12px;
   border-radius: 3px;
   line-height: 1.4;  
 }
 
 .btn-primary {
-    color: white;
+    color: #ffffff;
     background-color: #364147;
 
 }
 
 .btn-default {
     background-color: #faa541;
-    color: white;
+    color: #ffffff;
 }
 
 .form-control {
     display: block;
-    padding: 6px 12px 6px 12px;
-    border: 1px #a0a0a0 solid;
+    padding: 6px 12px;
+    border: 1px solid #a0a0a0;
     color: #8598a2;
     line-height: 1.4;
 }
 
 .text-light{
     font-size: 30px;
-    color:#a0a0a0;
+    color:#A0A0A0;
 
 
 }
